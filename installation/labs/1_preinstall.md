@@ -1,3 +1,5 @@
+  ```
+
 1. Check swappiness 
 
 [ec2-user@ip-172-31-13-246 ~]$ sysctl vm.swappiness
@@ -283,3 +285,6 @@ Oct 02 13:40:25 ip-172-31-13-246.us-west-2.compute.internal ntpd[9816]: 0.0.0.0 
 Oct 02 13:40:25 ip-172-31-13-246.us-west-2.compute.internal ntpd[9816]: 0.0.0.0 c012 02 freq_set kernel 0.000 PPM
 Oct 02 13:40:25 ip-172-31-13-246.us-west-2.compute.internal ntpd[9816]: 0.0.0.0 c011 01 freq_not_set
 Oct 02 13:40:32 ip-172-31-13-246.us-west-2.compute.internal ntpd[9816]: 0.0.0.0 c614 04 freq_mode
+
+
+  ```
