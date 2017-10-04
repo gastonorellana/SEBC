@@ -1,0 +1,9 @@
+```
+
+kadm5.acl
+
+[root@ip-172-31-13-246 ec2-user]# cat /var/kerberos/krb5kdc/kadm5.acl
+*/admin@AGNOSTIC.COM *
+cloudera-scm@AGNOSTIC.COM admilc
+
+```
