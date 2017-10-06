@@ -20,13 +20,15 @@ Red Hat Enterprise Linux Server release 7.2 (Maipo)
 
 [root@ip-172-31-18-5 ec2-user]# df -h
 Filesystem      Size  Used Avail Use% Mounted on
-/dev/xvda2      120G  1.3G  119G   2% /
-devtmpfs         15G     0   15G   0% /dev
-tmpfs            15G     0   15G   0% /dev/shm
-tmpfs            15G   17M   15G   1% /run
-tmpfs            15G     0   15G   0% /sys/fs/cgroup
-tmpfs           3.0G     0  3.0G   0% /run/user/1000
-tmpfs           3.0G     0  3.0G   0% /run/user/0
+/dev/xvda2       120G   1,2G  119G   1% /
+devtmpfs          15G      0   15G   0% /dev
+tmpfs             15G      0   15G   0% /dev/shm
+tmpfs             15G    17M   15G   1% /run
+tmpfs             15G      0   15G   0% /sys/fs/cgroup
+/dev/xvdc        118G    61M  112G   1% /data0
+/dev/xvdb        118G    61M  112G   1% /data1
+tmpfs            3,0G      0  3,0G   0% /run/user/0
+tmpfs            3,0G      0  3,0G   0% /run/user/1000
 
 
 #Command and output for yum repolist enabled
